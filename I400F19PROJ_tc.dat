@@ -1,0 +1,10 @@
+/*********************************************
+ * OPL 12.10.0.0 Data
+ * Author: UO
+ * Creation Date: Dec 29, 2019 at 11:09:30 PM
+ *********************************************/
+
+n = 50;
+subtours = {};
+SheetConnection sheet("table_tc_dist.xlsx");
+dist from SheetRead(sheet,"'Sheet1'!A2:A1226");
